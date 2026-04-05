@@ -1,0 +1,32 @@
+# NBA Betting System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+streamlit==1.29.0
+flask==3.0.0
+flask-cors==4.0.0
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# NBA Data API
+nba-api==1.2.1
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+
+# Utilities
+python-dateutil==2.8.2
+
+# Web Scraping & Automation
+beautifulsoup4==4.12.2
+schedule==1.2.0
+requests==2.31.0
+
+# Timezone Support
+pytz==2023.3

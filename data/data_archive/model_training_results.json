@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-10-12T19:50:18.356301",
+  "model_type": "LogisticRegression",
+  "features": [
+    "elo_diff",
+    "rest_diff",
+    "form_diff",
+    "injury_diff",
+    "home_court"
+  ],
+  "cross_validation": {
+    "accuracy_mean": 0.6614634146341463,
+    "accuracy_std": 0.03512195121951218,
+    "accuracy_scores": [
+      0.6097560975609756,
+      0.6390243902439025,
+      0.6585365853658537,
+      0.7024390243902439,
+      0.697560975609756
+    ],
+    "brier_score": 0.2734426775183681,
+    "log_loss": 4.051126066656228,
+    "auc": 0.6427132196162048
+  },
+  "comparison_with_elo": {
+    "elo_accuracy": 0.6520325203252032,
+    "model_accuracy": 0.6614634146341463,
+    "accuracy_improvement": 0.00943089430894306,
+    "elo_brier": 0.21575943873995193,
+    "model_brier": 0.2734426775183681,
+    "brier_improvement": -0.05768323877841616
+  }
+}

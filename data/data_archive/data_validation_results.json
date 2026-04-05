@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-10-12T19:06:33.829640",
+  "game_data": {
+    "status": "PASSED",
+    "checks": {
+      "completeness": {
+        "status": "PASSED",
+        "total_games": 1230,
+        "expected_games": 1230
+      },
+      "date_range": {
+        "status": "PASSED",
+        "start": "2024-10-22",
+        "end": "2025-04-13"
+      },
+      "score_validity": {
+        "status": "PASSED"
+      },
+      "team_consistency": {
+        "status": "PASSED",
+        "unique_teams": 30
+      },
+      "duplicates": {
+        "status": "PASSED"
+      },
+      "win_loss_logic": {
+        "status": "PASSED"
+      }
+    },
+    "warnings": [],
+    "errors": []
+  },
+  "team_data": {
+    "status": "PASSED",
+    "checks": {
+      "team_count": {
+        "status": "PASSED",
+        "total_teams": 30
+      },
+      "feature_completeness": {
+        "status": "PASSED"
+      },
+      "data_ranges": {
+        "status": "PASSED"
+      },
+      "record_consistency": {
+        "status": "PASSED"
+      },
+      "win_pct_accuracy": {
+        "status": "PASSED"
+      },
+      "gp_validation": {
+        "status": "PASSED"
+      }
+    },
+    "warnings": [],
+    "errors": []
+  },
+  "injury_data": {
+    "status": "PASSED",
+    "checks": {
+      "completeness": {
+        "status": "INFO",
+        "total_players": 530
+      },
+      "team_consistency": {
+        "status": "INFO",
+        "unique_teams": 30
+      },
+      "required_fields": {
+        "status": "PASSED"
+      }
+    },
+    "warnings": [
+      "Precious Achiuwa: HEALTHY",
+      "Steven Adams: PROBABLE",
+      "Bam Adebayo: HEALTHY",
+      "Ochai Agbaji: HEALTHY",
+      "Santi Aldama: HEALTHY"
+    ],
+    "errors": []
+  },
+  "overall_status": "PASSED"
+}

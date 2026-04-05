@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-12T19:07:53.593329",
+  "checks": {
+    "missing_values": {
+      "status": "PASSED",
+      "game_data": {
+        "missing_values": {}
+      },
+      "team_data": {
+        "missing_values": {}
+      },
+      "injury_data": {
+        "missing_values": {}
+      },
+      "alerts": []
+    },
+    "outliers": {
+      "status": "WARNING",
+      "outliers": {
+        "FT_PCT": [
+          {
+            "team": "Houston Rockets",
+            "value": 0.738,
+            "expected_range": "0.74 - 0.81"
+          }
+        ],
+        "REB": [
+          {
+            "team": "Houston Rockets",
+            "value": 45.5,
+            "expected_range": "36.79 - 44.89"
+          },
+          {
+            "team": "Philadelphia 76ers",
+            "value": 36.0,
+            "expected_range": "36.79 - 44.89"
+          }
+        ],
+        "TOV": [
+          {
+            "team": "Oklahoma City Thunder",
+            "value": 11.0,
+            "expected_range": "11.00 - 15.80"
+          },
+          {
+            "team": "Utah Jazz",
+            "value": 15.9,
+            "expected_range": "11.00 - 15.80"
+          }
+        ],
+        "STL": [
+          {
+            "team": "Oklahoma City Thunder",
+            "value": 9.2,
+            "expected_range": "6.12 - 9.12"
+          }
+        ],
+        "game_scores": [
+          {
+            "game_id": "0022400414",
+            "team": "Memphis Grizzlies",
+            "score": 155
+          },
+          {
+            "game_id": "0022400424",
+            "team": "Cleveland Cavaliers",
+            "score": 149
+          },
+          {
+            "game_id": "0022400449",
+            "team": "Toronto Raptors",
+            "score": 71
+          },
+          {
+            "game_id": "0022400571",
+            "team": "Brooklyn Nets",
+            "score": 67
+          },
+          {
+            "game_id": "0022400622",
+            "team": "Orlando Magic",
+            "score": 79
+          },
+          {
+            "game_id": "0022400773",
+            "team": "New York Knicks",
+            "score": 149
+          },
+          {
+            "game_id": "0022400773",
+            "team": "Atlanta Hawks",
+            "score": 148
+          },
+          {
+            "game_id": "0022400814",
+            "team": "Detroit Pistons",
+            "score": 148
+          },
+          {
+            "game_id": "0022400832",
+            "team": "Memphis Grizzlies",
+            "score": 151
+          },
+          {
+            "game_id": "0022400832",
+            "team": "Phoenix Suns",
+            "score": 148
+          }
+        ]
+      },
+      "alerts": [
+        "FT_PCT: 1 outliers",
+        "REB: 2 outliers",
+        "TOV: 2 outliers",
+        "STL: 1 outliers"
+      ]
+    },
+    "freshness": {
+      "status": "WARNING",
+      "freshness": {
+        "game_data": {
+          "last_updated": "2025-09-23T22:16:16.722116",
+          "age_hours": 452.86,
+          "is_stale": true
+        },
+        "team_data": {
+          "last_updated": "2025-09-23T20:19:25.363721",
+          "age_hours": 454.81,
+          "is_stale": true
+        },
+        "injury_data": {
+          "last_updated": "2025-09-23T23:51:01.141402",
+          "age_hours": 451.28,
+          "is_stale": true
+        }
+      },
+      "alerts": [
+        "Game data is 452.9 hours old",
+        "Team data is 454.8 hours old",
+        "Injury data is 451.3 hours old"
+      ]
+    },
+    "schema_validation": {
+      "status": "PASSED",
+      "schema_checks": {
+        "game_data": [],
+        "team_data": []
+      },
+      "alerts": []
+    }
+  },
+  "alerts": [
+    "FT_PCT: 1 outliers",
+    "REB: 2 outliers",
+    "TOV: 2 outliers",
+    "STL: 1 outliers",
+    "Game data is 452.9 hours old",
+    "Team data is 454.8 hours old",
+    "Injury data is 451.3 hours old"
+  ],
+  "overall_score": 80.0
+}

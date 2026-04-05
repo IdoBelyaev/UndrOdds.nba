@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-12T19:27:52.987208",
+    "k_factor": 30,
+    "home_advantage": 50,
+    "initial_rating": 1500.0,
+    "total_teams": 30
+  },
+  "ratings": {
+    "Cleveland Cavaliers": 1665.5756492909152,
+    "Philadelphia 76ers": 1263.5749766324548,
+    "Atlanta Hawks": 1485.067236335558,
+    "Houston Rockets": 1589.9004957293541,
+    "Orlando Magic": 1513.3821870112977,
+    "Los Angeles Lakers": 1598.887440304168,
+    "LA Clippers": 1663.3066567150536,
+    "Chicago Bulls": 1540.7518193992373,
+    "Miami Heat": 1423.127150287742,
+    "Milwaukee Bucks": 1606.0382337464714,
+    "Portland Trail Blazers": 1497.4880351817455,
+    "Oklahoma City Thunder": 1772.7323999565183,
+    "Minnesota Timberwolves": 1617.855399683649,
+    "Toronto Raptors": 1405.3403907057082,
+    "Brooklyn Nets": 1326.5196586738377,
+    "Dallas Mavericks": 1435.8158810339485,
+    "Utah Jazz": 1257.8558007059223,
+    "Memphis Grizzlies": 1522.1827992202159,
+    "Phoenix Suns": 1432.8577061782178,
+    "Charlotte Hornets": 1254.818373588927,
+    "New Orleans Pelicans": 1314.460605015844,
+    "Detroit Pistons": 1523.1412827005845,
+    "Washington Wizards": 1292.953510914815,
+    "Boston Celtics": 1698.9437198144092,
+    "Indiana Pacers": 1629.8954875500556,
+    "San Antonio Spurs": 1425.553549837416,
+    "Denver Nuggets": 1587.00471332778,
+    "Sacramento Kings": 1490.0109927356855,
+    "New York Knicks": 1567.9455853876548,
+    "Golden State Warriors": 1597.0122623348134
+  },
+  "performance": {
+    "accuracy": 0.6520325203252032,
+    "brier_score": 0.21575943873995193,
+    "log_loss": 0.6196409352035145,
+    "total_predictions": 1230
+  }
+}

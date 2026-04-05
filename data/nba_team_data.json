@@ -1,0 +1,1299 @@
+{
+  "metadata": {
+    "total_teams": 30,
+    "total_features": 36,
+    "export_date": "2025-11-04 17:37:37",
+    "data_source": "NBA Stats API - Updated from Real Game Results",
+    "season": "2025-26",
+    "description": "Team data updated from 107 completed games"
+  },
+  "feature_categories": {
+    "basic_stats": [
+      "PPG",
+      "PAPG",
+      "FG_PCT",
+      "FG3_PCT",
+      "FT_PCT",
+      "REB",
+      "AST",
+      "TOV",
+      "STL",
+      "BLK"
+    ],
+    "advanced_metrics": [
+      "ORtg",
+      "DRtg",
+      "NET_RTG",
+      "eFG_PCT",
+      "TOV_PCT",
+      "OREB_PCT",
+      "FTA_RATE"
+    ],
+    "contextual_features": [
+      "RECENT_WIN_PCT",
+      "IS_HOME",
+      "DAYS_REST",
+      "IS_B2B",
+      "KEY_PLAYER_INJURED"
+    ]
+  },
+  "teams": [
+    {
+      "team_id": 1,
+      "team_name": "Boston Celtics",
+      "team_abbr": "BOS",
+      "basic_stats": {
+        "ppg": 110.5,
+        "papg": 109.6,
+        "fg_pct": 0.433,
+        "fg3_pct": 0.312,
+        "ft_pct": 0.793,
+        "reb": 42.6,
+        "ast": 22.1,
+        "tov": 10.9,
+        "stl": 9.1,
+        "blk": 5.2
+      },
+      "advanced_metrics": {
+        "ortg": 110.5,
+        "drtg": 109.6,
+        "net_rtg": 0.9,
+        "efg_pct": 0.513,
+        "tov_pct": 9.7,
+        "oreb_pct": 12.8,
+        "fta_rate": 19.3
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 5,
+        "win_pct": 0.375,
+        "point_diff": 0.9
+      },
+      "wins": 3,
+      "losses": 5,
+      "win_pct": 0.375
+    },
+    {
+      "team_id": 2,
+      "team_name": "Milwaukee Bucks",
+      "team_abbr": "MIL",
+      "basic_stats": {
+        "ppg": 111.5,
+        "papg": 108.4,
+        "fg_pct": 0.516,
+        "fg3_pct": 0.406,
+        "ft_pct": 0.69,
+        "reb": 37.6,
+        "ast": 24.5,
+        "tov": 12.8,
+        "stl": 6.9,
+        "blk": 4.6
+      },
+      "advanced_metrics": {
+        "ortg": 111.5,
+        "drtg": 108.4,
+        "net_rtg": 3.1,
+        "efg_pct": 0.607,
+        "tov_pct": 12.5,
+        "oreb_pct": 11.3,
+        "fta_rate": 26.8
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 6,
+        "losses": 2,
+        "win_pct": 0.75,
+        "point_diff": 3.1
+      },
+      "wins": 6,
+      "losses": 2,
+      "win_pct": 0.75
+    },
+    {
+      "team_id": 3,
+      "team_name": "Denver Nuggets",
+      "team_abbr": "DEN",
+      "basic_stats": {
+        "ppg": 125.0,
+        "papg": 113.8,
+        "fg_pct": 0.518,
+        "fg3_pct": 0.347,
+        "ft_pct": 0.853,
+        "reb": 45.7,
+        "ast": 29.8,
+        "tov": 13.0,
+        "stl": 8.0,
+        "blk": 4.2
+      },
+      "advanced_metrics": {
+        "ortg": 125.0,
+        "drtg": 113.8,
+        "net_rtg": 11.2,
+        "efg_pct": 0.583,
+        "tov_pct": 11.5,
+        "oreb_pct": 13.7,
+        "fta_rate": 28.1
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 2,
+        "win_pct": 0.667,
+        "point_diff": 11.2
+      },
+      "wins": 4,
+      "losses": 2,
+      "win_pct": 0.667
+    },
+    {
+      "team_id": 4,
+      "team_name": "Phoenix Suns",
+      "team_abbr": "PHX",
+      "basic_stats": {
+        "ppg": 118.3,
+        "papg": 120.6,
+        "fg_pct": 0.465,
+        "fg3_pct": 0.375,
+        "ft_pct": 0.804,
+        "reb": 42.4,
+        "ast": 28.0,
+        "tov": 16.4,
+        "stl": 9.7,
+        "blk": 5.3
+      },
+      "advanced_metrics": {
+        "ortg": 118.3,
+        "drtg": 120.6,
+        "net_rtg": -2.3,
+        "efg_pct": 0.555,
+        "tov_pct": 14.1,
+        "oreb_pct": 12.7,
+        "fta_rate": 24.1
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 4,
+        "win_pct": 0.429,
+        "point_diff": -2.3
+      },
+      "wins": 3,
+      "losses": 4,
+      "win_pct": 0.429
+    },
+    {
+      "team_id": 5,
+      "team_name": "Miami Heat",
+      "team_abbr": "MIA",
+      "basic_stats": {
+        "ppg": 123.9,
+        "papg": 117.0,
+        "fg_pct": 0.502,
+        "fg3_pct": 0.395,
+        "ft_pct": 0.78,
+        "reb": 44.4,
+        "ast": 30.0,
+        "tov": 15.4,
+        "stl": 9.1,
+        "blk": 2.7
+      },
+      "advanced_metrics": {
+        "ortg": 123.9,
+        "drtg": 117.0,
+        "net_rtg": 6.9,
+        "efg_pct": 0.582,
+        "tov_pct": 13.3,
+        "oreb_pct": 13.3,
+        "fta_rate": 27.5
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 6.9
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 6,
+      "team_name": "Philadelphia 76ers",
+      "team_abbr": "PHI",
+      "basic_stats": {
+        "ppg": 109.9,
+        "papg": 102.3,
+        "fg_pct": 0.483,
+        "fg3_pct": 0.412,
+        "ft_pct": 0.799,
+        "reb": 37.1,
+        "ast": 23.7,
+        "tov": 11.7,
+        "stl": 6.0,
+        "blk": 6.1
+      },
+      "advanced_metrics": {
+        "ortg": 109.9,
+        "drtg": 102.3,
+        "net_rtg": 7.6,
+        "efg_pct": 0.57,
+        "tov_pct": 11.6,
+        "oreb_pct": 11.1,
+        "fta_rate": 32.6
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 6,
+        "losses": 1,
+        "win_pct": 0.857,
+        "point_diff": 7.6
+      },
+      "wins": 6,
+      "losses": 1,
+      "win_pct": 0.857
+    },
+    {
+      "team_id": 7,
+      "team_name": "Memphis Grizzlies",
+      "team_abbr": "MEM",
+      "basic_stats": {
+        "ppg": 115.5,
+        "papg": 120.4,
+        "fg_pct": 0.446,
+        "fg3_pct": 0.329,
+        "ft_pct": 0.851,
+        "reb": 42.6,
+        "ast": 27.5,
+        "tov": 14.1,
+        "stl": 7.8,
+        "blk": 3.9
+      },
+      "advanced_metrics": {
+        "ortg": 115.5,
+        "drtg": 120.4,
+        "net_rtg": -4.9,
+        "efg_pct": 0.519,
+        "tov_pct": 12.2,
+        "oreb_pct": 12.8,
+        "fta_rate": 28.9
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 5,
+        "win_pct": 0.375,
+        "point_diff": -4.9
+      },
+      "wins": 3,
+      "losses": 5,
+      "win_pct": 0.375
+    },
+    {
+      "team_id": 8,
+      "team_name": "Sacramento Kings",
+      "team_abbr": "SAC",
+      "basic_stats": {
+        "ppg": 116.3,
+        "papg": 121.0,
+        "fg_pct": 0.487,
+        "fg3_pct": 0.365,
+        "ft_pct": 0.78,
+        "reb": 38.9,
+        "ast": 25.7,
+        "tov": 13.1,
+        "stl": 9.6,
+        "blk": 3.6
+      },
+      "advanced_metrics": {
+        "ortg": 116.3,
+        "drtg": 121.0,
+        "net_rtg": -4.7,
+        "efg_pct": 0.549,
+        "tov_pct": 11.7,
+        "oreb_pct": 11.7,
+        "fta_rate": 27.0
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 2,
+        "losses": 5,
+        "win_pct": 0.286,
+        "point_diff": -4.7
+      },
+      "wins": 2,
+      "losses": 5,
+      "win_pct": 0.286
+    },
+    {
+      "team_id": 9,
+      "team_name": "Cleveland Cavaliers",
+      "team_abbr": "CLE",
+      "basic_stats": {
+        "ppg": 114.1,
+        "papg": 113.9,
+        "fg_pct": 0.445,
+        "fg3_pct": 0.349,
+        "ft_pct": 0.755,
+        "reb": 41.1,
+        "ast": 25.7,
+        "tov": 15.7,
+        "stl": 10.1,
+        "blk": 4.7
+      },
+      "advanced_metrics": {
+        "ortg": 114.1,
+        "drtg": 113.9,
+        "net_rtg": 0.3,
+        "efg_pct": 0.535,
+        "tov_pct": 13.6,
+        "oreb_pct": 12.3,
+        "fta_rate": 30.6
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 0.3
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 10,
+      "team_name": "New York Knicks",
+      "team_abbr": "NYK",
+      "basic_stats": {
+        "ppg": 116.3,
+        "papg": 113.6,
+        "fg_pct": 0.435,
+        "fg3_pct": 0.365,
+        "ft_pct": 0.847,
+        "reb": 47.6,
+        "ast": 26.0,
+        "tov": 13.0,
+        "stl": 7.9,
+        "blk": 3.9
+      },
+      "advanced_metrics": {
+        "ortg": 116.3,
+        "drtg": 113.6,
+        "net_rtg": 2.7,
+        "efg_pct": 0.522,
+        "tov_pct": 11.3,
+        "oreb_pct": 14.3,
+        "fta_rate": 26.5
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 2.7
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 11,
+      "team_name": "Los Angeles Lakers",
+      "team_abbr": "LAL",
+      "basic_stats": {
+        "ppg": 119.8,
+        "papg": 116.6,
+        "fg_pct": 0.529,
+        "fg3_pct": 0.331,
+        "ft_pct": 0.792,
+        "reb": 40.1,
+        "ast": 27.2,
+        "tov": 16.0,
+        "stl": 9.0,
+        "blk": 3.5
+      },
+      "advanced_metrics": {
+        "ortg": 119.8,
+        "drtg": 116.6,
+        "net_rtg": 3.1,
+        "efg_pct": 0.592,
+        "tov_pct": 14.5,
+        "oreb_pct": 12.0,
+        "fta_rate": 34.3
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 6,
+        "losses": 2,
+        "win_pct": 0.75,
+        "point_diff": 3.1
+      },
+      "wins": 6,
+      "losses": 2,
+      "win_pct": 0.75
+    },
+    {
+      "team_id": 12,
+      "team_name": "Golden State Warriors",
+      "team_abbr": "GSW",
+      "basic_stats": {
+        "ppg": 117.6,
+        "papg": 115.7,
+        "fg_pct": 0.468,
+        "fg3_pct": 0.38,
+        "ft_pct": 0.851,
+        "reb": 41.9,
+        "ast": 27.7,
+        "tov": 16.4,
+        "stl": 9.1,
+        "blk": 4.0
+      },
+      "advanced_metrics": {
+        "ortg": 117.6,
+        "drtg": 115.7,
+        "net_rtg": 1.9,
+        "efg_pct": 0.561,
+        "tov_pct": 14.5,
+        "oreb_pct": 12.6,
+        "fta_rate": 29.1
+      },
+      "contextual_features": {
+        "recent_win_pct": 1.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 1.9
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 13,
+      "team_name": "Dallas Mavericks",
+      "team_abbr": "DAL",
+      "basic_stats": {
+        "ppg": 107.3,
+        "papg": 115.6,
+        "fg_pct": 0.443,
+        "fg3_pct": 0.316,
+        "ft_pct": 0.772,
+        "reb": 42.9,
+        "ast": 24.1,
+        "tov": 16.3,
+        "stl": 7.6,
+        "blk": 5.0
+      },
+      "advanced_metrics": {
+        "ortg": 107.3,
+        "drtg": 115.6,
+        "net_rtg": -8.3,
+        "efg_pct": 0.503,
+        "tov_pct": 14.4,
+        "oreb_pct": 12.9,
+        "fta_rate": 34.2
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 2,
+        "losses": 5,
+        "win_pct": 0.286,
+        "point_diff": -8.3
+      },
+      "wins": 2,
+      "losses": 5,
+      "win_pct": 0.286
+    },
+    {
+      "team_id": 14,
+      "team_name": "Atlanta Hawks",
+      "team_abbr": "ATL",
+      "basic_stats": {
+        "ppg": 101.5,
+        "papg": 104.2,
+        "fg_pct": 0.478,
+        "fg3_pct": 0.336,
+        "ft_pct": 0.755,
+        "reb": 37.8,
+        "ast": 25.1,
+        "tov": 11.8,
+        "stl": 7.6,
+        "blk": 4.2
+      },
+      "advanced_metrics": {
+        "ortg": 101.5,
+        "drtg": 104.2,
+        "net_rtg": -2.8,
+        "efg_pct": 0.538,
+        "tov_pct": 11.8,
+        "oreb_pct": 11.3,
+        "fta_rate": 29.4
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 5,
+        "win_pct": 0.375,
+        "point_diff": -2.8
+      },
+      "wins": 3,
+      "losses": 5,
+      "win_pct": 0.375
+    },
+    {
+      "team_id": 15,
+      "team_name": "Brooklyn Nets",
+      "team_abbr": "BKN",
+      "basic_stats": {
+        "ppg": 111.9,
+        "papg": 127.6,
+        "fg_pct": 0.446,
+        "fg3_pct": 0.324,
+        "ft_pct": 0.764,
+        "reb": 39.7,
+        "ast": 24.0,
+        "tov": 15.0,
+        "stl": 7.4,
+        "blk": 2.1
+      },
+      "advanced_metrics": {
+        "ortg": 111.9,
+        "drtg": 127.6,
+        "net_rtg": -15.7,
+        "efg_pct": 0.521,
+        "tov_pct": 13.0,
+        "oreb_pct": 11.9,
+        "fta_rate": 27.9
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 0,
+        "losses": 7,
+        "win_pct": 0.0,
+        "point_diff": -15.7
+      },
+      "wins": 0,
+      "losses": 7,
+      "win_pct": 0.0
+    },
+    {
+      "team_id": 16,
+      "team_name": "Minnesota Timberwolves",
+      "team_abbr": "MIN",
+      "basic_stats": {
+        "ppg": 116.9,
+        "papg": 115.6,
+        "fg_pct": 0.498,
+        "fg3_pct": 0.402,
+        "ft_pct": 0.747,
+        "reb": 41.6,
+        "ast": 25.3,
+        "tov": 14.7,
+        "stl": 7.6,
+        "blk": 5.3
+      },
+      "advanced_metrics": {
+        "ortg": 116.9,
+        "drtg": 115.6,
+        "net_rtg": 1.3,
+        "efg_pct": 0.578,
+        "tov_pct": 13.3,
+        "oreb_pct": 12.5,
+        "fta_rate": 30.8
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 1.3
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 17,
+      "team_name": "New Orleans Pelicans",
+      "team_abbr": "NOP",
+      "basic_stats": {
+        "ppg": 93.4,
+        "papg": 110.3,
+        "fg_pct": 0.42,
+        "fg3_pct": 0.343,
+        "ft_pct": 0.742,
+        "reb": 35.0,
+        "ast": 19.3,
+        "tov": 12.3,
+        "stl": 7.4,
+        "blk": 2.4
+      },
+      "advanced_metrics": {
+        "ortg": 93.4,
+        "drtg": 110.3,
+        "net_rtg": -16.9,
+        "efg_pct": 0.487,
+        "tov_pct": 12.3,
+        "oreb_pct": 10.5,
+        "fta_rate": 33.2
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 0,
+        "losses": 7,
+        "win_pct": 0.0,
+        "point_diff": -16.9
+      },
+      "wins": 0,
+      "losses": 7,
+      "win_pct": 0.0
+    },
+    {
+      "team_id": 18,
+      "team_name": "Chicago Bulls",
+      "team_abbr": "CHI",
+      "basic_stats": {
+        "ppg": 105.3,
+        "papg": 101.9,
+        "fg_pct": 0.5,
+        "fg3_pct": 0.404,
+        "ft_pct": 0.788,
+        "reb": 40.1,
+        "ast": 26.3,
+        "tov": 12.3,
+        "stl": 6.4,
+        "blk": 3.6
+      },
+      "advanced_metrics": {
+        "ortg": 105.3,
+        "drtg": 101.9,
+        "net_rtg": 3.4,
+        "efg_pct": 0.58,
+        "tov_pct": 12.5,
+        "oreb_pct": 12.0,
+        "fta_rate": 27.2
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 5,
+        "losses": 2,
+        "win_pct": 0.714,
+        "point_diff": 3.4
+      },
+      "wins": 5,
+      "losses": 2,
+      "win_pct": 0.714
+    },
+    {
+      "team_id": 19,
+      "team_name": "Toronto Raptors",
+      "team_abbr": "TOR",
+      "basic_stats": {
+        "ppg": 109.8,
+        "papg": 109.6,
+        "fg_pct": 0.501,
+        "fg3_pct": 0.398,
+        "ft_pct": 0.754,
+        "reb": 36.6,
+        "ast": 27.8,
+        "tov": 13.4,
+        "stl": 8.0,
+        "blk": 3.4
+      },
+      "advanced_metrics": {
+        "ortg": 109.8,
+        "drtg": 109.6,
+        "net_rtg": 0.1,
+        "efg_pct": 0.575,
+        "tov_pct": 12.8,
+        "oreb_pct": 11.0,
+        "fta_rate": 27.0
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 5,
+        "win_pct": 0.375,
+        "point_diff": 0.1
+      },
+      "wins": 3,
+      "losses": 5,
+      "win_pct": 0.375
+    },
+    {
+      "team_id": 20,
+      "team_name": "Indiana Pacers",
+      "team_abbr": "IND",
+      "basic_stats": {
+        "ppg": 112.9,
+        "papg": 120.6,
+        "fg_pct": 0.407,
+        "fg3_pct": 0.302,
+        "ft_pct": 0.742,
+        "reb": 48.7,
+        "ast": 23.0,
+        "tov": 12.9,
+        "stl": 6.3,
+        "blk": 4.4
+      },
+      "advanced_metrics": {
+        "ortg": 112.9,
+        "drtg": 120.6,
+        "net_rtg": -7.7,
+        "efg_pct": 0.47,
+        "tov_pct": 10.5,
+        "oreb_pct": 14.6,
+        "fta_rate": 32.4
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 1,
+        "losses": 6,
+        "win_pct": 0.143,
+        "point_diff": -7.7
+      },
+      "wins": 1,
+      "losses": 6,
+      "win_pct": 0.143
+    },
+    {
+      "team_id": 21,
+      "team_name": "Orlando Magic",
+      "team_abbr": "ORL",
+      "basic_stats": {
+        "ppg": 103.1,
+        "papg": 102.5,
+        "fg_pct": 0.482,
+        "fg3_pct": 0.333,
+        "ft_pct": 0.747,
+        "reb": 40.4,
+        "ast": 20.9,
+        "tov": 14.2,
+        "stl": 6.9,
+        "blk": 5.5
+      },
+      "advanced_metrics": {
+        "ortg": 103.1,
+        "drtg": 102.5,
+        "net_rtg": 0.6,
+        "efg_pct": 0.541,
+        "tov_pct": 13.9,
+        "oreb_pct": 12.1,
+        "fta_rate": 37.9
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 4,
+        "win_pct": 0.5,
+        "point_diff": 0.6
+      },
+      "wins": 4,
+      "losses": 4,
+      "win_pct": 0.5
+    },
+    {
+      "team_id": 22,
+      "team_name": "Washington Wizards",
+      "team_abbr": "WAS",
+      "basic_stats": {
+        "ppg": 112.6,
+        "papg": 127.0,
+        "fg_pct": 0.453,
+        "fg3_pct": 0.381,
+        "ft_pct": 0.703,
+        "reb": 46.7,
+        "ast": 26.0,
+        "tov": 16.7,
+        "stl": 6.9,
+        "blk": 5.9
+      },
+      "advanced_metrics": {
+        "ortg": 112.6,
+        "drtg": 127.0,
+        "net_rtg": -14.4,
+        "efg_pct": 0.529,
+        "tov_pct": 14.1,
+        "oreb_pct": 14.0,
+        "fta_rate": 22.3
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 1,
+        "losses": 6,
+        "win_pct": 0.143,
+        "point_diff": -14.4
+      },
+      "wins": 1,
+      "losses": 6,
+      "win_pct": 0.143
+    },
+    {
+      "team_id": 23,
+      "team_name": "Portland Trail Blazers",
+      "team_abbr": "POR",
+      "basic_stats": {
+        "ppg": 120.3,
+        "papg": 117.6,
+        "fg_pct": 0.451,
+        "fg3_pct": 0.323,
+        "ft_pct": 0.817,
+        "reb": 41.1,
+        "ast": 26.6,
+        "tov": 16.1,
+        "stl": 12.1,
+        "blk": 4.6
+      },
+      "advanced_metrics": {
+        "ortg": 120.3,
+        "drtg": 117.6,
+        "net_rtg": 2.7,
+        "efg_pct": 0.524,
+        "tov_pct": 13.3,
+        "oreb_pct": 12.3,
+        "fta_rate": 30.3
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 3,
+        "win_pct": 0.571,
+        "point_diff": 2.7
+      },
+      "wins": 4,
+      "losses": 3,
+      "win_pct": 0.571
+    },
+    {
+      "team_id": 24,
+      "team_name": "Charlotte Hornets",
+      "team_abbr": "CHA",
+      "basic_stats": {
+        "ppg": 108.5,
+        "papg": 106.9,
+        "fg_pct": 0.485,
+        "fg3_pct": 0.392,
+        "ft_pct": 0.81,
+        "reb": 40.9,
+        "ast": 25.2,
+        "tov": 14.0,
+        "stl": 6.0,
+        "blk": 4.0
+      },
+      "advanced_metrics": {
+        "ortg": 108.5,
+        "drtg": 106.9,
+        "net_rtg": 1.6,
+        "efg_pct": 0.573,
+        "tov_pct": 13.7,
+        "oreb_pct": 12.3,
+        "fta_rate": 29.3
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 4,
+        "win_pct": 0.5,
+        "point_diff": 1.6
+      },
+      "wins": 4,
+      "losses": 4,
+      "win_pct": 0.5
+    },
+    {
+      "team_id": 25,
+      "team_name": "Detroit Pistons",
+      "team_abbr": "DET",
+      "basic_stats": {
+        "ppg": 115.9,
+        "papg": 112.4,
+        "fg_pct": 0.457,
+        "fg3_pct": 0.344,
+        "ft_pct": 0.746,
+        "reb": 47.6,
+        "ast": 25.4,
+        "tov": 14.3,
+        "stl": 9.3,
+        "blk": 7.3
+      },
+      "advanced_metrics": {
+        "ortg": 115.9,
+        "drtg": 112.4,
+        "net_rtg": 3.4,
+        "efg_pct": 0.517,
+        "tov_pct": 12.1,
+        "oreb_pct": 14.3,
+        "fta_rate": 33.0
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 5,
+        "losses": 2,
+        "win_pct": 0.714,
+        "point_diff": 3.4
+      },
+      "wins": 5,
+      "losses": 2,
+      "win_pct": 0.714
+    },
+    {
+      "team_id": 26,
+      "team_name": "Houston Rockets",
+      "team_abbr": "HOU",
+      "basic_stats": {
+        "ppg": 124.8,
+        "papg": 112.2,
+        "fg_pct": 0.496,
+        "fg3_pct": 0.425,
+        "ft_pct": 0.775,
+        "reb": 49.3,
+        "ast": 25.8,
+        "tov": 15.7,
+        "stl": 9.0,
+        "blk": 6.2
+      },
+      "advanced_metrics": {
+        "ortg": 124.8,
+        "drtg": 112.2,
+        "net_rtg": 12.7,
+        "efg_pct": 0.57,
+        "tov_pct": 13.4,
+        "oreb_pct": 14.8,
+        "fta_rate": 39.4
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 4,
+        "losses": 2,
+        "win_pct": 0.667,
+        "point_diff": 12.7
+      },
+      "wins": 4,
+      "losses": 2,
+      "win_pct": 0.667
+    },
+    {
+      "team_id": 27,
+      "team_name": "San Antonio Spurs",
+      "team_abbr": "SAS",
+      "basic_stats": {
+        "ppg": 118.2,
+        "papg": 108.2,
+        "fg_pct": 0.498,
+        "fg3_pct": 0.352,
+        "ft_pct": 0.738,
+        "reb": 47.8,
+        "ast": 24.2,
+        "tov": 14.8,
+        "stl": 9.2,
+        "blk": 6.7
+      },
+      "advanced_metrics": {
+        "ortg": 118.2,
+        "drtg": 108.2,
+        "net_rtg": 10.0,
+        "efg_pct": 0.566,
+        "tov_pct": 13.1,
+        "oreb_pct": 14.3,
+        "fta_rate": 33.5
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 5,
+        "losses": 1,
+        "win_pct": 0.833,
+        "point_diff": 10.0
+      },
+      "wins": 5,
+      "losses": 1,
+      "win_pct": 0.833
+    },
+    {
+      "team_id": 28,
+      "team_name": "Utah Jazz",
+      "team_abbr": "UTA",
+      "basic_stats": {
+        "ppg": 115.6,
+        "papg": 118.6,
+        "fg_pct": 0.446,
+        "fg3_pct": 0.316,
+        "ft_pct": 0.837,
+        "reb": 49.6,
+        "ast": 27.6,
+        "tov": 17.0,
+        "stl": 7.1,
+        "blk": 3.7
+      },
+      "advanced_metrics": {
+        "ortg": 115.6,
+        "drtg": 118.6,
+        "net_rtg": -3.0,
+        "efg_pct": 0.515,
+        "tov_pct": 14.4,
+        "oreb_pct": 14.9,
+        "fta_rate": 33.7
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 3,
+        "losses": 4,
+        "win_pct": 0.429,
+        "point_diff": -3.0
+      },
+      "wins": 3,
+      "losses": 4,
+      "win_pct": 0.429
+    },
+    {
+      "team_id": 29,
+      "team_name": "Oklahoma City Thunder",
+      "team_abbr": "OKC",
+      "basic_stats": {
+        "ppg": 122.1,
+        "papg": 109.7,
+        "fg_pct": 0.468,
+        "fg3_pct": 0.315,
+        "ft_pct": 0.86,
+        "reb": 48.0,
+        "ast": 25.1,
+        "tov": 11.7,
+        "stl": 10.7,
+        "blk": 5.3
+      },
+      "advanced_metrics": {
+        "ortg": 122.1,
+        "drtg": 109.7,
+        "net_rtg": 12.4,
+        "efg_pct": 0.539,
+        "tov_pct": 10.1,
+        "oreb_pct": 14.4,
+        "fta_rate": 26.2
+      },
+      "contextual_features": {
+        "recent_win_pct": 1.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 7,
+        "losses": 0,
+        "win_pct": 1.0,
+        "point_diff": 12.4
+      },
+      "wins": 7,
+      "losses": 0,
+      "win_pct": 1.0
+    },
+    {
+      "team_id": 30,
+      "team_name": "Los Angeles Clippers",
+      "team_abbr": "LAC",
+      "basic_stats": {
+        "ppg": 0.0,
+        "papg": 0.0,
+        "fg_pct": 0.0,
+        "fg3_pct": 0.0,
+        "ft_pct": 0.0,
+        "reb": 0.0,
+        "ast": 0.0,
+        "tov": 0.0,
+        "stl": 0.0,
+        "blk": 0.0
+      },
+      "advanced_metrics": {
+        "ortg": 0.0,
+        "drtg": 0.0,
+        "net_rtg": 0.0,
+        "efg_pct": 0.0,
+        "tov_pct": 0.0,
+        "oreb_pct": 0.0,
+        "fta_rate": 0.0
+      },
+      "contextual_features": {
+        "recent_win_pct": 0.0,
+        "is_home": true,
+        "days_rest": 1,
+        "is_b2b": false,
+        "key_player_injured": false
+      },
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "win_pct": 0.0,
+        "point_diff": 0.0
+      }
+    }
+  ]
+}

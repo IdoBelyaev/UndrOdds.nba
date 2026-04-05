@@ -1,0 +1,7 @@
+{
+  "ev_threshold": 0.15,
+  "confidence_filter": 0.6,
+  "bet_sizing": "flat",
+  "flat_bet_amount": 20.0,
+  "bankroll": 1000.0
+}

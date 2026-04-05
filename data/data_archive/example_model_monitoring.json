@@ -1,0 +1,28 @@
+{
+  "last_updated": "2025-10-12T20:41:29.157278",
+  "total_records": 2,
+  "monitoring_history": [
+    {
+      "timestamp": "2025-10-12T20:41:29.156431",
+      "period_label": "Week 1",
+      "total_predictions": 5,
+      "metrics": {
+        "accuracy": 0.8,
+        "brier_score": 0.15398,
+        "log_loss": 0.4844884356009157,
+        "total_predictions": 5
+      }
+    },
+    {
+      "timestamp": "2025-10-12T20:41:29.157275",
+      "period_label": "Week 2",
+      "total_predictions": 4,
+      "metrics": {
+        "accuracy": 1.0,
+        "brier_score": 0.14945,
+        "log_loss": 0.48127700535651247,
+        "total_predictions": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "game": "Lakers vs Warriors",
+  "date": "2024-01-15",
+  "team_moneylines": [
+    {
+      "team": "Lakers",
+      "opponent": "Warriors",
+      "moneyline": "+203",
+      "implied_probability": 0.33,
+      "league": "NBA"
+    },
+    {
+      "team": "Warriors",
+      "opponent": "Lakers",
+      "moneyline": "-271",
+      "implied_probability": 0.73,
+      "league": "NBA"
+    }
+  ],
+  "source": "sample_data",
+  "analysis": {
+    "total_moneylines": 2,
+    "unique_teams": 2,
+    "team_distribution": {
+      "Lakers": 1,
+      "Warriors": 1
+    },
+    "implied_probability_analysis": {
+      "average": 0.53,
+      "minimum": 0.33,
+      "maximum": 0.73
+    },
+    "favorites_count": 1,
+    "underdogs_count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-10-12T19:27:52.991264",
+  "configuration": {
+    "k_factor": 30,
+    "home_advantage": 50,
+    "initial_rating": 1500.0
+  },
+  "performance": {
+    "accuracy": 0.6520325203252032,
+    "brier_score": 0.21575943873995193,
+    "log_loss": 0.6196409352035145,
+    "total_predictions": 1230
+  },
+  "rfc_targets": {
+    "brier_score_target": 0.19,
+    "brier_score_actual": 0.21575943873995193,
+    "brier_score_pass": false,
+    "accuracy_target": 0.6,
+    "accuracy_actual": 0.6520325203252032,
+    "accuracy_pass": true
+  },
+  "status": "ACCEPTABLE"
+}

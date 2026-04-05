@@ -1,0 +1,72 @@
+{
+  "game": "Lakers vs Warriors",
+  "date": "2024-01-15",
+  "player_props": [
+    {
+      "player": "LeBron James",
+      "team": "Lakers",
+      "opponent": "Warriors",
+      "stat": "Points",
+      "line": 25.5,
+      "direction_optional": "Over",
+      "league": "NBA"
+    },
+    {
+      "player": "Stephen Curry",
+      "team": "Warriors",
+      "opponent": "Lakers",
+      "stat": "3-Pointers Made",
+      "line": 4.5,
+      "direction_optional": "Under",
+      "league": "NBA"
+    },
+    {
+      "player": "Anthony Davis",
+      "team": "Lakers",
+      "opponent": "Warriors",
+      "stat": "Rebounds",
+      "line": 12.5,
+      "direction_optional": "Over",
+      "league": "NBA"
+    },
+    {
+      "player": "Klay Thompson",
+      "team": "Warriors",
+      "opponent": "Lakers",
+      "stat": "Points",
+      "line": 18.5,
+      "direction_optional": "Under",
+      "league": "NBA"
+    },
+    {
+      "player": "Draymond Green",
+      "team": "Warriors",
+      "opponent": "Lakers",
+      "stat": "Assists",
+      "line": 7.5,
+      "direction_optional": "Over",
+      "league": "NBA"
+    }
+  ],
+  "source": "sample_data",
+  "analysis": {
+    "total_props": 5,
+    "unique_players": 5,
+    "unique_stats": 4,
+    "stat_distribution": {
+      "Points": 2,
+      "3-Pointers Made": 1,
+      "Rebounds": 1,
+      "Assists": 1
+    },
+    "team_distribution": {
+      "Lakers": 2,
+      "Warriors": 3
+    },
+    "line_analysis": {
+      "average": 13.7,
+      "minimum": 4.5,
+      "maximum": 25.5
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-10-12T20:02:04.503580",
+  "min_ev_threshold": 0.05,
+  "total_recommendations": 1,
+  "recommendations": [
+    {
+      "home_team": "Lakers",
+      "away_team": "Warriors",
+      "home_bet": {
+        "team": "Lakers",
+        "moneyline": 120,
+        "true_probability": 0.6364772865668007,
+        "implied_probability": 0.45454545454545453,
+        "ev": 0.4002500304469616,
+        "ev_percent": 40.02500304469616,
+        "edge_percent": 18.193183202134616,
+        "kelly_fraction": 0.08338542300978366,
+        "recommended": true,
+        "decimal_odds": 2.2
+      },
+      "away_bet": {
+        "team": "Warriors",
+        "moneyline": -140,
+        "true_probability": 0.3635227134331993,
+        "implied_probability": 0.5833333333333334,
+        "ev": -0.37681820554308687,
+        "ev_percent": -37.681820554308686,
+        "edge_percent": -21.981061990013405,
+        "kelly_fraction": 0.0,
+        "recommended": false,
+        "decimal_odds": 1.7142857142857144
+      },
+      "best_bet": "home",
+      "has_positive_ev": true,
+      "game_date": "2025-10-20",
+      "game_id": "sample_001"
+    }
+  ]
+}

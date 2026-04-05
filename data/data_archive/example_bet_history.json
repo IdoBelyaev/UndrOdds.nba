@@ -1,0 +1,54 @@
+{
+  "last_updated": "2025-10-12T20:35:02.425023",
+  "total_bets": 2,
+  "bets": [
+    {
+      "bet_id": "BET_20251012_203502",
+      "timestamp": "2025-10-12T20:35:02.424466",
+      "date": "2024-10-22",
+      "game": "Lakers vs Warriors",
+      "team": "Lakers",
+      "opponent": "Warriors",
+      "moneyline": 120,
+      "bet_amount": 20.0,
+      "win_probability": 0.636,
+      "ev_percent": 40.0,
+      "bankroll_before": 1000.0,
+      "status": "lost",
+      "result": false,
+      "profit": -20.0,
+      "bankroll_after": 1004.0
+    },
+    {
+      "bet_id": "BET_20251012_203502",
+      "timestamp": "2025-10-12T20:35:02.424917",
+      "date": "2024-10-22",
+      "game": "Celtics vs Heat",
+      "team": "Celtics",
+      "opponent": "Heat",
+      "moneyline": -180,
+      "bet_amount": 20.0,
+      "win_probability": 0.682,
+      "ev_percent": 5.8,
+      "bankroll_before": 1024.0,
+      "status": "pending",
+      "result": null,
+      "profit": null,
+      "bankroll_after": null
+    }
+  ],
+  "bankroll_history": [
+    {
+      "timestamp": "2025-10-12T20:35:02.424690",
+      "bet_id": "BET_20251012_203502",
+      "bankroll": 1024.0,
+      "change": 24.0
+    },
+    {
+      "timestamp": "2025-10-12T20:35:02.425021",
+      "bet_id": "BET_20251012_203502",
+      "bankroll": 1004.0,
+      "change": -20.0
+    }
+  ]
+}

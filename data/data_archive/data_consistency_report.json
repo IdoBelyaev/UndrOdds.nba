@@ -1,0 +1,309 @@
+{
+  "timestamp": "2025-10-12T19:09:07.409775",
+  "checks": {
+    "team_names": {
+      "status": "WARNING",
+      "issues": [
+        "team_data: 'Los Angeles Clippers'",
+        "injury_data: 'Mavericks'",
+        "injury_data: 'Cavaliers'",
+        "Teams in games but not in team data: {'LA Clippers'}"
+      ],
+      "team_names": {
+        "game_data": [
+          "Cleveland Cavaliers",
+          "Detroit Pistons",
+          "Utah Jazz",
+          "Los Angeles Lakers",
+          "Memphis Grizzlies",
+          "Houston Rockets",
+          "Sacramento Kings",
+          "Toronto Raptors",
+          "Indiana Pacers",
+          "New York Knicks",
+          "Golden State Warriors",
+          "Chicago Bulls",
+          "Boston Celtics",
+          "Philadelphia 76ers",
+          "Oklahoma City Thunder",
+          "Orlando Magic",
+          "Milwaukee Bucks",
+          "San Antonio Spurs",
+          "Denver Nuggets",
+          "Miami Heat",
+          "New Orleans Pelicans",
+          "LA Clippers",
+          "Portland Trail Blazers",
+          "Charlotte Hornets",
+          "Brooklyn Nets",
+          "Minnesota Timberwolves",
+          "Phoenix Suns",
+          "Atlanta Hawks",
+          "Washington Wizards",
+          "Dallas Mavericks"
+        ],
+        "team_data": [
+          "Cleveland Cavaliers",
+          "Detroit Pistons",
+          "Utah Jazz",
+          "Los Angeles Lakers",
+          "Memphis Grizzlies",
+          "Houston Rockets",
+          "Sacramento Kings",
+          "Toronto Raptors",
+          "Indiana Pacers",
+          "Golden State Warriors",
+          "New York Knicks",
+          "Chicago Bulls",
+          "Boston Celtics",
+          "Oklahoma City Thunder",
+          "Los Angeles Clippers",
+          "Philadelphia 76ers",
+          "Orlando Magic",
+          "Milwaukee Bucks",
+          "San Antonio Spurs",
+          "Denver Nuggets",
+          "Miami Heat",
+          "New Orleans Pelicans",
+          "Portland Trail Blazers",
+          "Charlotte Hornets",
+          "Minnesota Timberwolves",
+          "Brooklyn Nets",
+          "Phoenix Suns",
+          "Atlanta Hawks",
+          "Washington Wizards",
+          "Dallas Mavericks"
+        ],
+        "injury_data": [
+          "Detroit Pistons",
+          "Utah Jazz",
+          "Los Angeles Lakers",
+          "Memphis Grizzlies",
+          "Houston Rockets",
+          "Sacramento Kings",
+          "Toronto Raptors",
+          "Indiana Pacers",
+          "New York Knicks",
+          "Golden State Warriors",
+          "Chicago Bulls",
+          "Boston Celtics",
+          "Philadelphia 76ers",
+          "Oklahoma City Thunder",
+          "Orlando Magic",
+          "Milwaukee Bucks",
+          "San Antonio Spurs",
+          "Denver Nuggets",
+          "Miami Heat",
+          "New Orleans Pelicans",
+          "LA Clippers",
+          "Portland Trail Blazers",
+          "Mavericks",
+          "Charlotte Hornets",
+          "Phoenix Suns",
+          "Minnesota Timberwolves",
+          "Brooklyn Nets",
+          "Cavaliers",
+          "Atlanta Hawks",
+          "Washington Wizards"
+        ]
+      }
+    },
+    "date_formats": {
+      "status": "PASSED",
+      "issues": [],
+      "formats": {
+        "game_data": [
+          "YYYY-MM-DD HH:MM:SS"
+        ]
+      }
+    },
+    "id_mapping": {
+      "status": "PASSED",
+      "issues": [],
+      "id_stats": {
+        "game_ids": {
+          "total": 1230,
+          "unique": 1230,
+          "duplicates": 0
+        },
+        "team_ids": {
+          "total_teams": 30,
+          "unique_ids": 30
+        },
+        "player_ids": {
+          "total": 530,
+          "unique": 530
+        }
+      }
+    },
+    "cross_source": {
+      "status": "WARNING",
+      "issues": [
+        "24 teams with win count mismatches",
+        "Season mismatch across data sources"
+      ],
+      "reconciliation": {
+        "win_mismatches": [
+          {
+            "team": "Atlanta Hawks",
+            "team_data_wins": 38,
+            "game_data_wins": 40,
+            "difference": 2
+          },
+          {
+            "team": "Boston Celtics",
+            "team_data_wins": 59,
+            "game_data_wins": 61,
+            "difference": 2
+          },
+          {
+            "team": "Brooklyn Nets",
+            "team_data_wins": 27,
+            "game_data_wins": 26,
+            "difference": 1
+          },
+          {
+            "team": "Charlotte Hornets",
+            "team_data_wins": 24,
+            "game_data_wins": 19,
+            "difference": 5
+          },
+          {
+            "team": "Cleveland Cavaliers",
+            "team_data_wins": 62,
+            "game_data_wins": 64,
+            "difference": 2
+          },
+          {
+            "team": "Dallas Mavericks",
+            "team_data_wins": 38,
+            "game_data_wins": 39,
+            "difference": 1
+          },
+          {
+            "team": "Denver Nuggets",
+            "team_data_wins": 49,
+            "game_data_wins": 50,
+            "difference": 1
+          },
+          {
+            "team": "Detroit Pistons",
+            "team_data_wins": 43,
+            "game_data_wins": 44,
+            "difference": 1
+          },
+          {
+            "team": "Golden State Warriors",
+            "team_data_wins": 50,
+            "game_data_wins": 48,
+            "difference": 2
+          },
+          {
+            "team": "Houston Rockets",
+            "team_data_wins": 51,
+            "game_data_wins": 52,
+            "difference": 1
+          },
+          {
+            "team": "Indiana Pacers",
+            "team_data_wins": 48,
+            "game_data_wins": 50,
+            "difference": 2
+          },
+          {
+            "team": "Los Angeles Clippers",
+            "team_data_wins": 51,
+            "game_data_wins": 0,
+            "difference": 51
+          },
+          {
+            "team": "Los Angeles Lakers",
+            "team_data_wins": 48,
+            "game_data_wins": 50,
+            "difference": 2
+          },
+          {
+            "team": "Memphis Grizzlies",
+            "team_data_wins": 49,
+            "game_data_wins": 48,
+            "difference": 1
+          },
+          {
+            "team": "Miami Heat",
+            "team_data_wins": 41,
+            "game_data_wins": 37,
+            "difference": 4
+          },
+          {
+            "team": "Milwaukee Bucks",
+            "team_data_wins": 45,
+            "game_data_wins": 48,
+            "difference": 3
+          },
+          {
+            "team": "Minnesota Timberwolves",
+            "team_data_wins": 50,
+            "game_data_wins": 49,
+            "difference": 1
+          },
+          {
+            "team": "New Orleans Pelicans",
+            "team_data_wins": 20,
+            "game_data_wins": 21,
+            "difference": 1
+          },
+          {
+            "team": "Oklahoma City Thunder",
+            "team_data_wins": 65,
+            "game_data_wins": 68,
+            "difference": 3
+          },
+          {
+            "team": "Philadelphia 76ers",
+            "team_data_wins": 26,
+            "game_data_wins": 24,
+            "difference": 2
+          },
+          {
+            "team": "Portland Trail Blazers",
+            "team_data_wins": 37,
+            "game_data_wins": 36,
+            "difference": 1
+          },
+          {
+            "team": "San Antonio Spurs",
+            "team_data_wins": 36,
+            "game_data_wins": 34,
+            "difference": 2
+          },
+          {
+            "team": "Utah Jazz",
+            "team_data_wins": 20,
+            "game_data_wins": 17,
+            "difference": 3
+          },
+          {
+            "team": "Washington Wizards",
+            "team_data_wins": 20,
+            "game_data_wins": 18,
+            "difference": 2
+          }
+        ],
+        "seasons": {
+          "game_data": "22024",
+          "team_data": "2024-25",
+          "injury_data": "2024-25"
+        }
+      }
+    }
+  },
+  "issues": [
+    "team_data: 'Los Angeles Clippers'",
+    "injury_data: 'Mavericks'",
+    "injury_data: 'Cavaliers'",
+    "Teams in games but not in team data: {'LA Clippers'}",
+    "24 teams with win count mismatches",
+    "Season mismatch across data sources"
+  ],
+  "overall_status": "WARNING"
+}

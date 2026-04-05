@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-12T19:52:08.890227",
+  "calibration_method": "isotonic",
+  "uncalibrated": {
+    "accuracy": 0.6658536585365854,
+    "brier_score": 0.20975048444363345,
+    "log_loss": 0.6062388747673501,
+    "auc": 0.7255557036247335
+  },
+  "calibrated": {
+    "accuracy": 0.6682926829268293,
+    "brier_score": 0.20885148328349468,
+    "log_loss": 0.6041609219715078,
+    "auc": 0.726693763326226
+  },
+  "improvement": {
+    "brier_improvement": 0.0008990011601387737,
+    "logloss_improvement": 0.0020779527958422195
+  },
+  "comparison_with_elo": {
+    "elo_brier": 0.21575943873995193,
+    "calibrated_brier": 0.20885148328349468,
+    "improvement_vs_elo": 0.006907955456457254
+  }
+}

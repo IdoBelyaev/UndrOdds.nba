@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-12T20:40:46.788009",
+  "summary_stats": {
+    "total_bets": 1,
+    "pending_bets": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_wagered": 20.0,
+    "total_profit": -20.0,
+    "roi": -100.0
+  },
+  "roi_by_period": {
+    "daily": {
+      "2024-10-22": {
+        "bet_amount": 20.0,
+        "profit": -20.0,
+        "roi": -100.0
+      }
+    },
+    "weekly": {
+      "2024-10-21/2024-10-27": {
+        "bet_amount": 20.0,
+        "profit": -20.0,
+        "roi": -100.0
+      }
+    },
+    "monthly": {
+      "2024-10": {
+        "bet_amount": 20.0,
+        "profit": -20.0,
+        "roi": -100.0
+      }
+    }
+  },
+  "win_rate_analysis": {
+    "overall": 0.0,
+    "by_odds_type": {
+      "underdog": 0.0
+    },
+    "by_ev_range": {
+      "20%+": 0.0
+    }
+  }
+}
